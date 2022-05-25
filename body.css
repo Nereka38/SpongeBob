@@ -1,0 +1,29 @@
+@import '/clothes.css';
+@import '/face.css';
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+header {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border: solid black 5px;
+    }
+
+main {
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border: solid black 5px;
+    margin-top: -0.5%;
+	
+}
